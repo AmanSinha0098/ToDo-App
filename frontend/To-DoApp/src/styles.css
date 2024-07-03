@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Lexend", sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+button,a {
+    cursor: pointer;
+}
+
+html {
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+}

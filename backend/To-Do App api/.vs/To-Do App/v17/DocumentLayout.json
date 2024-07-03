@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10D5AD87-E5B7-4DE9-A59A-4B5F83E84ECB}|ToDo.Controllers\\ToDo.Controllers.csproj|c:\\users\\aman.s\\onedrive - technovert\\desktop\\to-do app\\full-web-app-amansinha493\\backend\\to-do app api\\todo.controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D5AD87-E5B7-4DE9-A59A-4B5F83E84ECB}|ToDo.Controllers\\ToDo.Controllers.csproj|solutionrelative:todo.controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8743C6-EC87-4E7E-84C2-83CF9CC40032}|ToDo.Services\\ToDo.Services.csproj|c:\\users\\aman.s\\onedrive - technovert\\desktop\\to-do app\\full-web-app-amansinha493\\backend\\to-do app api\\todo.services\\interface\\itaskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF8743C6-EC87-4E7E-84C2-83CF9CC40032}|ToDo.Services\\ToDo.Services.csproj|solutionrelative:todo.services\\interface\\itaskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8743C6-EC87-4E7E-84C2-83CF9CC40032}|ToDo.Services\\ToDo.Services.csproj|c:\\users\\aman.s\\onedrive - technovert\\desktop\\to-do app\\full-web-app-amansinha493\\backend\\to-do app api\\todo.services\\taskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF8743C6-EC87-4E7E-84C2-83CF9CC40032}|ToDo.Services\\ToDo.Services.csproj|solutionrelative:todo.services\\taskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A606B7-F8A5-4A58-B216-618C81B8CEFA}|ToDo.Repository\\ToDo.Repository.csproj|c:\\users\\aman.s\\onedrive - technovert\\desktop\\to-do app\\full-web-app-amansinha493\\backend\\to-do app api\\todo.repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A606B7-F8A5-4A58-B216-618C81B8CEFA}|ToDo.Repository\\ToDo.Repository.csproj|solutionrelative:todo.repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA48DCF7-4411-4556-9A36-9EA3223F2331}|Models\\ToDo.EntityModels.csproj|c:\\users\\aman.s\\onedrive - technovert\\desktop\\to-do app\\full-web-app-amansinha493\\backend\\to-do app api\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA48DCF7-4411-4556-9A36-9EA3223F2331}|Models\\ToDo.EntityModels.csproj|solutionrelative:models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA48DCF7-4411-4556-9A36-9EA3223F2331}|Models\\ToDo.EntityModels.csproj|c:\\users\\aman.s\\onedrive - technovert\\desktop\\to-do app\\full-web-app-amansinha493\\backend\\to-do app api\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA48DCF7-4411-4556-9A36-9EA3223F2331}|Models\\ToDo.EntityModels.csproj|solutionrelative:models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A606B7-F8A5-4A58-B216-618C81B8CEFA}|ToDo.Repository\\ToDo.Repository.csproj|c:\\users\\aman.s\\onedrive - technovert\\desktop\\to-do app\\full-web-app-amansinha493\\backend\\to-do app api\\todo.repository\\interface\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A606B7-F8A5-4A58-B216-618C81B8CEFA}|ToDo.Repository\\ToDo.Repository.csproj|solutionrelative:todo.repository\\interface\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED8A131-A658-44E5-ABB8-DC47A8CF7131}|ToDo.DTOModels\\ToDo.DTOModels.csproj|c:\\users\\aman.s\\onedrive - technovert\\desktop\\to-do app\\full-web-app-amansinha493\\backend\\to-do app api\\todo.dtomodels\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED8A131-A658-44E5-ABB8-DC47A8CF7131}|ToDo.DTOModels\\ToDo.DTOModels.csproj|solutionrelative:todo.dtomodels\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITaskServices.cs",
+              "DocumentMoniker": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\ToDo.Services\\Interface\\ITaskServices.cs",
+              "RelativeDocumentMoniker": "ToDo.Services\\Interface\\ITaskServices.cs",
+              "ToolTip": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\ToDo.Services\\Interface\\ITaskServices.cs",
+              "RelativeToolTip": "ToDo.Services\\Interface\\ITaskServices.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T09:50:14.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Models\\Task.cs",
+              "ToolTip": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\Models\\Task.cs",
+              "RelativeToolTip": "Models\\Task.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAMwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:35:10.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\Models\\Enums.cs",
+              "RelativeDocumentMoniker": "Models\\Enums.cs",
+              "ToolTip": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\Models\\Enums.cs",
+              "RelativeToolTip": "Models\\Enums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:35:09.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\ToDo.Repository\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "ToDo.Repository\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\ToDo.Repository\\TaskRepository.cs",
+              "RelativeToolTip": "ToDo.Repository\\TaskRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwBYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:14:47.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\ToDo.Repository\\Interface\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "ToDo.Repository\\Interface\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\ToDo.Repository\\Interface\\ITaskRepository.cs",
+              "RelativeToolTip": "ToDo.Repository\\Interface\\ITaskRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:13:49.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\ToDo.DTOModels\\Enums.cs",
+              "RelativeDocumentMoniker": "ToDo.DTOModels\\Enums.cs",
+              "ToolTip": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\ToDo.DTOModels\\Enums.cs",
+              "RelativeToolTip": "ToDo.DTOModels\\Enums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:12:49.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskServices.cs",
+              "DocumentMoniker": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\ToDo.Services\\TaskServices.cs",
+              "RelativeDocumentMoniker": "ToDo.Services\\TaskServices.cs",
+              "ToolTip": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\ToDo.Services\\TaskServices.cs",
+              "RelativeToolTip": "ToDo.Services\\TaskServices.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAIA+wDAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T05:44:29.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\ToDo.Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "ToDo.Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\aman.s\\OneDrive - Technovert\\Desktop\\To-Do App\\full-web-app-AmanSinha493\\backend\\To-Do App api\\ToDo.Controllers\\TaskController.cs",
+              "RelativeToolTip": "ToDo.Controllers\\TaskController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAvwBIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T05:40:40.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

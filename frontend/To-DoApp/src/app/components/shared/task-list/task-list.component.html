@@ -1,0 +1,39 @@
+<ul #tasksContainer>
+    <li  *ngFor="let task of tasks" class="flex task-list" (blur)="toggleDescription(task.id!)" (click)="toggleDescription(task.id!)" value="{{task.id}}"
+        [ngClass]="{completed:task.isCompleted}">
+        <input type="checkbox" name="check" [id]="task.id" class="custom-checkbox" [checked]="task.isCompleted"
+            (change)="updateStatus(task)">
+        <label [for]="task.id">
+            <span class="checkbox-svg"></span>
+        </label>
+        <p class="task-name">{{task.title}}</p>
+        <div id="{{task.id}}" class="task-description" [class.hide]="selectedTaskId !== task.id"
+            [class.completed]="task.isCompleted" (click)="stopProp($event)">
+            <div class="task-title">
+                <p class="title" title="{{task.title}}">{{transformTitle(task.title)}}</p>
+                <p class="time" [class.completed]="task.isCompleted">Added {{calculateDuration(task)}}</p>
+            </div>
+            <div class="description">
+                <p>Description</p>
+                <p>{{task.description}}</p>
+            </div>
+            <div class="task-customization flex">
+                <div>
+                    <img [class.completed]="task.isCompleted" [src]="getCheckboxIcon(task.isCompleted!)" alt=""
+                        class="chekbox icon" (click)="updateStatus(task)">
+                </div>
+                <div>
+                    <img [class.hide]="task.isCompleted" src="../../../../assets/images/edit.svg" alt=""
+                        class="edit icon" (click)="editTask(task)" (click)="openModal()">
+                    <img [src]="getDeleteIcon(task.isCompleted!)" alt="" class="delete icon" (click)="invokeDelete()">
+                </div>
+            </div>
+            <app-delete-modal (delete)="deleteTask(task.id!)" (hide)="showDeleteConfirmation=false"
+                [show]="showDeleteConfirmation">
+            </app-delete-modal>
+        </div>
+
+    </li>
+</ul>
+<app-add-task-modal [isOpen]="isModalOpen" (close)="closeModal()" [defaultData]="taskToedit"
+    [isUpdate]="true"></app-add-task-modal>

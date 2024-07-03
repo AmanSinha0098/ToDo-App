@@ -1,0 +1,48 @@
+.sidebar {
+    align-items: center;
+    gap: 4vw;
+}
+
+.sidebar-title {
+    padding-top: 3vh;
+    color: #BA5112;
+    font-weight: 600;
+    font-size: 2.5vw;
+}
+
+.add-task-btn {
+    border: none;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: .6vw .2vw;
+    border-radius: .5rem;
+}
+
+.add-task-btn div {
+    font-size: 1.1vw;
+    padding: 1vh 3vw 1vh 0;
+}
+
+.add-task-btn img {
+    width: 2.1vw;
+}
+
+.sidebar-navigation {
+    width: 100%;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.nav {
+    font-size: 1.1vw;
+    width: 100%;
+    text-align: center;
+    padding: 1.2vh 0vh;
+}
+
+.active {
+    background-color: #EDB046;
+}

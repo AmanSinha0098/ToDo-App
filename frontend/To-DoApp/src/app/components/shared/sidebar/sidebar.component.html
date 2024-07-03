@@ -1,0 +1,15 @@
+<div class="sidebar flex-column">
+    <div class="sidebar-title">
+        To-Do App
+    </div>
+    <button class="add-task-btn flex" (click)="openModal()">
+        <div>Add Task</div> <img src="../../../../assets/images/Add button.svg" alt="">
+    </button>
+    <div class="sidebar-navigation flex-column">
+        <div class="dashboard nav"  routerLinkActive="active" routerLink="dashboard" >Dashboard</div>
+        <div class="active-task nav" routerLinkActive="active" routerLink="active">Active</div>
+        <div class="completed nav" routerLinkActive="active" routerLink="completed">Completed</div>
+        <div class="pending nav" routerLinkActive="active" routerLink="pending">Pending</div>
+    </div>
+</div>
+<app-add-task-modal [isOpen]="isModalOpen" (close)="closeModal()" [isUpdate]="false"></app-add-task-modal>

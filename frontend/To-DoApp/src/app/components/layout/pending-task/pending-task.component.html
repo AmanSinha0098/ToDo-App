@@ -1,0 +1,5 @@
+<div class="task-list-heading flex">
+    <h3>Pending Tasks</h3>
+    <p class="date"> {{date}}</p>
+</div>
+<app-task-list [tasks]="tasks" (updatedTask)="updateTaskStatus($event)"></app-task-list>

@@ -1,0 +1,187 @@
+.auth-main {
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../../assets/images/auth-backGround.svg");
+}
+
+.signup-container,
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 25rem;
+  min-height: 20rem;
+  height: 38vw;
+  width: 50%;
+  border-radius: 3%;
+  box-shadow: 2px 4px 12px -8px;
+}
+
+.signup-container {
+  background-color: #EDB046;
+  color: #ffff;
+}
+
+.login-container {
+  background-color: #ffff;
+}
+
+.auth-header {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.auth-header-title {
+  font-weight: 600;
+  font-size: 3.25vw;
+  margin: 0;
+}
+
+.login-container .auth-header-title {
+  color: #BA5112;
+}
+
+.auth-header-description {
+  padding-top: 2.5%;
+  font-size: 1vw;
+  margin: 0.2rem;
+}
+
+.auth-credential-input {
+  width: 80%;
+}
+
+.auth-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.auth-form input {
+  font-size: 1.1vw;
+  border: none;
+  border-radius: 5px;
+  height: 2.5rem;
+  padding: 5px 10px;
+  box-shadow: 2px 4px 12px -8px;
+}
+
+::placeholder {
+  font-weight: 500;
+  color: #B5B5B5;
+}
+
+.auth-submit {
+  font-size: 1.2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-submit-btn,
+.login-submit-btn {
+  font-size: 1vw;
+  font-weight: 500;
+  border: none;
+  border-radius: 7px;
+  height: 2.8rem;
+  width: 55%;
+  color: #ffff;
+  margin-bottom: 1vh;
+}
+
+.signup-submit-btn {
+  background-color: #BA5112;
+}
+
+.login-submit-btn {
+  background-color: #EDB046;
+}
+
+.auth-login-redirection {
+  font-size: 1vw;
+  padding-bottom: 5%;
+}
+
+.redirect-to-auth {
+  font-size: 1vw;
+
+  color: #BA5112;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  width: 96%;
+}
+
+.password-wrapper img {
+  position: absolute;
+  right: 5%;
+  top: 25%;
+}
+
+form span {
+  position: absolute;
+  left: 35%;
+  bottom: -10%;
+  color: red;
+  font-size: 1.1vw;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:1080px) {
+
+  .signup-submit-btn,
+  .login-submit-btn {
+    height: 2rem;
+  }
+
+  .auth-form input {
+    font-size: .9rem;
+  }
+
+  form span {
+    bottom: -5%;
+    font-size: .5rem
+  }
+}
+  @media screen and (max-width:700px) {
+
+    ::placeholder {
+      font-size: .5rem;
+    }
+
+    .auth-header-title {
+      font-size: 1.8rem;
+    }
+
+    .auth-header-description {
+      font-size: .6rem;
+    }
+
+    .signup-submit-btn,
+    .login-submit-btn {
+      height: 1.75rem;
+      font-size: .7rem;
+
+      width: 60%;
+    }
+
+    .redirect-to-auth,
+    .auth-login-redirection {
+      font-size: .6rem;
+    }
+
+    .auth-form input,
+    form span {
+      font-size: .8rem;
+    }
+  }

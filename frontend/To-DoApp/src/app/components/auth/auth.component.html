@@ -1,0 +1,37 @@
+<div class="auth-main">
+    <div [ngClass]="getContainerClass()">
+        <div class="auth-header">
+            <p class="auth-header-title">To-Do App</p>
+            <p class="auth-header-description">
+                Start organizing your life day by day
+            </p>
+        </div>
+        <div class="auth-credential-input">
+            <form action="" class="auth-form" [formGroup]="loginForm">
+                <input type="text" class="auth-input-username"
+                    [placeholder]="isLogin ? 'Enter your username' : 'Username'" formControlName="username" />
+                <div class="password-wrapper">
+                    <input [type]="passwordType" class="auth-input-password"
+                        [placeholder]="isLogin ? 'Enter your password' : 'Password'" formControlName="password" />
+                    <img [src]="passwordEye" alt="" (click)="togglePasswordVisibility()">
+                </div>
+                <!-- <span *ngIf="userExists && !isLogin"> &#9888; User already exists</span> -->
+                <span [style.visibility]="userExists && !isLogin ? 'visible' : 'hidden'">&#9888; User already exists</span>
+
+            </form>
+        </div>
+        <div class="auth-submit">
+            <button [ngClass]="getButtonClass()" type="submit" (click)="authenticateUser()">
+                {{ isLogin ? "Sign In" : "Sign Up" }}
+            </button>
+            <p class="auth-login-redirection">
+                {{
+                isLogin
+                ? "Don't have an account? Sign up"
+                : "Already have an account? Sign in"
+                }}
+                <a class="redirect-to-auth" (click)="isLogin=!isLogin"> here </a>
+            </p>
+        </div>
+    </div>
+</div>

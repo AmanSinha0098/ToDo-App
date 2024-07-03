@@ -1,0 +1,45 @@
+<div class="dashboard-container">
+    <div class="hero-section">
+        <app-hero-section></app-hero-section>
+    </div>
+    <div class="task-wrapper">
+        <div class="heading">
+            <div class="task-list-heading flex">
+                <div class="task-heading flex">
+                    <h3>Today's Tasks</h3>
+                    <p class="delete" (click)="invokeDelete()"> Delete All</p>
+                </div>
+                <p class="date flex"> {{date}}</p>
+            </div>
+        </div>
+        <div class="main">
+            <div class="task-list">
+                <app-task-list [tasks]="tasks" (updatedTask)="updateTaskStatus($event)"
+                    (deleteId)="deleteTask($event)"></app-task-list>
+            </div>
+        </div>
+        <div class="side">
+            <div class="task-stats flex-column">
+                <div class="completed flex-column">
+                    <img src="../../../../assets/images/stats_completed.svg" alt="" class="stats-icon">
+                    <div class="stats">
+                        <p class="stats-number"><strong>{{percentCompleted}}%</strong></p>
+                        <p class="stats-text">Completed tasks</p>
+                    </div>
+                </div>
+                <div class="active flex-column">
+                    <img src="../../../../assets/images/stats_active.svg" alt="" class="stats-icon">
+                    <div class="stats">
+                        <p class="stats-number"><strong>{{percentActive}}%</strong></p>
+                        <p class="stats-text">Active tasks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-delete-modal (delete)="deleteAll()"
+(hide)="showDeleteConfirmation=false" 
+[show]="showDeleteConfirmation">
+
+</app-delete-modal>

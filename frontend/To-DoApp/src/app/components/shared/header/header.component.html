@@ -1,0 +1,24 @@
+<div class="header flex">
+  <div class="to-do-title">To-Do App</div>
+  <div class="header-title">{{ headerTitle }}</div>
+  <div class="header-buttons flex">
+    <button class="add-task-btn flex" (click)="openModal()">
+      <p>Add Task</p>
+      <img src="../../../../assets/images/Add button.svg" alt="">
+    </button>
+    <button class="sign-out-btn flex" (click)="logout()">
+      <p>Sign out</p>
+      <img src="../../../../assets/images/logout.svg" alt="">
+    </button>
+  </div>
+</div>
+<div class="dropdown">
+  <div class="dropdown-btn" (click)="toggleDropdown()">
+    <a>{{ usedLink.optionName }}</a>
+    <img src="../../../../assets/images/down-arrow.svg" alt="down arrow">
+  </div>
+  <div class="dropdown-content" *ngIf="isDropdownOpen">
+    <a *ngFor="let link of unUsedLink" (click)="selectOption(link)" [routerLink]="link.link">{{ link.optionName }}</a>
+  </div>
+</div>
+<app-add-task-modal [isOpen]="isModalOpen" (close)="closeModal()" [isUpdate]="false"></app-add-task-modal>

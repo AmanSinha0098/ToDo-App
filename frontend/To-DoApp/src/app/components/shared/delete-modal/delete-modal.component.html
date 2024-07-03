@@ -1,0 +1,9 @@
+<div class="modal-container flex" *ngIf="show">
+    <div class="delete-confirmation flex-column" [class.show-delete-confirmation]="show">
+        <p>Are you sure you want to delete ?</p>
+        <div class="btn-group flex">
+            <button type="submit" class="delete-yes" (click)="yes()">Yes</button>
+            <button type="reset" class="delete-no" (click)="no()">No</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,90 @@
+.modal-container {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    box-shadow: 4px 4px 8px 0px #00000026;
+    backdrop-filter: blur(2px);
+    z-index: 11;
+}
+
+.delete-confirmation {
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    background-color: #ffffff;
+    height: 12.5vw;
+    width: 30%;
+    visibility: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY(-100%);
+    scale: 0.1;
+    border-radius: 1rem;
+    z-index: 12;
+    position: absolute;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.show-delete-confirmation {
+    visibility: visible;
+    transform: translateY(0%);
+    scale: 1;
+}
+
+.btn-group {
+    justify-content: space-around;
+    width: 60%;
+    /* border: 2px solid red; */
+}
+
+.delete-confirmation p {
+    margin-bottom: 2vh;
+    line-height: 130%;
+}
+
+.delete-confirmation button {
+    cursor: pointer;
+    height: 1.5rem;
+    width: 5rem;
+    border-radius: .3rem;
+}
+
+.delete-yes {
+    background-color: #EDB046;
+    border: none;
+}
+
+.delete-no {
+    background-color: white;
+    border: 1px solid #EDB046;
+}
+
+@media screen and (max-width:950px) {
+    .delete-confirmation {
+        width: 40%;
+        height: 20vh;
+    }
+    .delete-confirmation p {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .delete-confirmation {
+        width: 50%;
+        height: 25vh;
+    }
+
+    .delete-confirmation p {
+        font-size: .8rem;
+    }
+
+    .delete-yes,
+    .delete-no {
+        scale: 0.9;
+    }
+}
